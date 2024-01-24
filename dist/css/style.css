@@ -119,6 +119,10 @@ textarea {
     line-height: 2;
     text-decoration: none !important;
 }
+.Profile{
+          margin: 10px auto;
+    padding-top: 10px;
+}
 .Footercopyright{
       text-align: center;
     margin-top: 15px;
