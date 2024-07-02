@@ -230,15 +230,10 @@
     </footer>
 <!--Footer End -->
 
-
-
-
-
-
-  
+<!--Js Files -->
   <script src="js/app.js"></script>
   <script src="js/bootstrap.js"></script>
-
+<!--JS files End -->
 </body>
 
 </html>
