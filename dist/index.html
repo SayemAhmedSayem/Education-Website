@@ -28,11 +28,11 @@
 
   
 <div class="container">
-  <nav class="navbar navbar-expand-lg  navbar-light" style="background-color: #e3f2fd;">
+  <nav class="navbar navbar-expand-lg  navbar-dark bg-primary">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">
     <img src="https://scontent.fdac149-1.fna.fbcdn.net/v/t39.30808-6/309294201_469339115223257_5721430476327181466_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=efb6e6&_nc_eui2=AeEpUyYqdnWyD8cBlgJEshUAM1Mza15GiPozUzNrXkaI-toxad8qg1edGq2qFVj22QJmdbWbZfzm18CA9QeGSfvX&_nc_ohc=Vry3aSDVT7UAX-TBbnR&_nc_oc=AQmQtii71xUrSi4HItDD0pBWq3aFORImQN3-mHxdXLZNq1HJS3t5JCMZNDxH6-i7GkE&_nc_ht=scontent.fdac149-1.fna&oh=00_AfDismYRKYqhGFS6eGH3Il09MHehOBpGjefhVWz0OXYTIQ&oe=657FCDB3" alt="" width="30" height="24" class="d-inline-block align-text-top">
-      Navbar
+      EduWeb
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -40,20 +40,23 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link dropdown active" aria-current="page" href="#">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link" href="AboutUs.html">About Us</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
+            Pages
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="Profile.html">Profiles</a></li>
+            <li><a class="dropdown-item" href="Testimonial.html">Testimonial</a></li>
+            <li><a class="dropdown-item" href="ContactUS.html">Contact Us</a></li>
+            <li><a class="dropdown-item" href="LogIn.html">LogIn</a></li>
+            <li><a class="dropdown-item" href="404.html">404 Page</a></li>
             <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li><a class="dropdown-item" href="ohters.html">Something else here</a></li>
           </ul>
         </li>
         <li class="nav-item">
@@ -62,14 +65,16 @@
       </ul>
       <form class="d-flex">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
+        <button class="btn btn-outline-light" type="submit">Search</button>
       </form>
     </div>
   </div>
 </nav>
 </div>
+<!--Header End -->
 
-
+<!--Content section Start-->
+<!--Start Slide-->
 <div class="container">
   <nav class="navbar navbar-expand-lg  navbar-light" style="background-color: #e3f2fd;">
   <div class="container-fluid">
@@ -100,51 +105,92 @@
       </button>
     </div>
   </div>
-</nav>
+  </nav>
 </div>
+<!--End Slide-->
 
+<!--Start Accordion-->
 <div class="container">
-<div class="accordion" id="accordionExample">
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headingOne">
-      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-        Accordion Item #1
-      </button>
-    </h2>
-    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+  <div class="row g-2">
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Accordion Item #1
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Accordion Item #2
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Accordion Item #3
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headingTwo">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-        Accordion Item #2
-      </button>
-    </h2>
-    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Accordion Item #4
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headingThree">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-        Accordion Item #3
-      </button>
-    </h2>
-    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Accordion Item #5
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+          </div>
+        </div>
       </div>
-    </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Accordion Item #6
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
   </div>
 </div>
-</div>
+<!--End Accordion-->
 
-
+<!--Start Accordion-->
   <div class="container">
     <div class="row g-2">
       <div class="col-6">
@@ -161,72 +207,200 @@
       </div>
     </div>
   </div>
-
-  <div class="container">
-  <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
-    <div class="col">
-      <div class="p-3 border bg-light">Row column</div>
-    </div>
-    <div class="col">
-      <div class="p-3 border bg-light">Row column</div>
-    </div>
-    <div class="col">
-      <div class="p-3 border bg-light">Row column</div>
-    </div>
-    <div class="col">
-      <div class="p-3 border bg-light">Row column</div>
-    </div>
-    <div class="col">
-      <div class="p-3 border bg-light">Row column</div>
-    </div>
-    <div class="col">
-      <div class="p-3 border bg-light">Row column</div>
-    </div>
-    <div class="col">
-      <div class="p-3 border bg-light">Row column</div>
-    </div>
-    <div class="col">
-      <div class="p-3 border bg-light">Row column</div>
-    </div>
-    <div class="col">
-      <div class="p-3 border bg-light">Row column</div>
-    </div>
-    <div class="col">
-      <div class="p-3 border bg-light">Row column</div>
+</div>
+ <div class="container">
+    <div class="row g-2">
+      <div class="col-6">
+        <div class="p-3 border bg-light">Custom column padding</div>
+      </div>
+      <div class="col-6">
+        <div class="p-3 border bg-light">Custom column padding</div>
+      </div>
+      <div class="col-6">
+        <div class="p-3 border bg-light">Custom column padding</div>
+      </div>
+      <div class="col-6">
+        <div class="p-3 border bg-light">Custom column padding</div>
+      </div>
     </div>
   </div>
 </div>
 
+
 <div class="container">
-  <div class="mb-3">
-  <label for="formFile" class="form-label">Default file input example</label>
-  <input class="form-control" type="file" id="formFile">
-</div>
-<div class="mb-3">
-  <label for="formFileMultiple" class="form-label">Multiple files input example</label>
-  <input class="form-control" type="file" id="formFileMultiple" multiple>
-</div>
-<div class="mb-3">
-  <label for="formFileDisabled" class="form-label">Disabled file input example</label>
-  <input class="form-control" type="file" id="formFileDisabled" disabled>
-</div>
-<div class="mb-3">
-  <label for="formFileSm" class="form-label">Small file input example</label>
-  <input class="form-control form-control-sm" id="formFileSm" type="file">
-</div>
-<div>
-  <label for="formFileLg" class="form-label">Large file input example</label>
-  <input class="form-control form-control-lg" id="formFileLg" type="file">
-</div>
+  <div class="row g-2">
+    <div class="card" style="width: 18rem;">
+      <img src="img/Slider_ (1).webp" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card with stretched link</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary stretched-link">Go somewhere</a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="img/Slider_ (1).webp" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card with stretched link</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary stretched-link">Go somewhere</a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="img/Slider_ (1).webp" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card with stretched link</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary stretched-link">Go somewhere</a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="img/Slider_ (1).webp" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card with stretched link</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary stretched-link">Go somewhere</a>
+      </div>
+    </div>
+  </div>
 </div>
 
+<!--Content section End-->
 
+<!--Footer Start -->
+<footer>
+      <div class="container">
+        <div class="row g-2">
+          <div class="bg-primary c-white">
+            <div class="row gx-5">
+              <div class="footerTop c-white">
+                <h4>= Quicklinks =</h4>
+              </div>
+              <div class="col-md-3 col-sm-3 textAligncenter" id="quick-links">
+                <h4>--- ---</h4>
+                <ul>
+                  <li>
+                    <a class="c-white" href="#">One</a>
+                  </li>
+                  <li>
+                    <a class="c-white" href="#">Two</a>
+                  </li>
+                  <li>
+                    <a class="c-white" href="#">Three</a>
+                  </li>
+                  <li>
+                    <a class="c-white" href="#">Four</a>
+                  </li>
+                  <li>
+                    <a class="c-white" href="#">Five</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-md-3 col-sm-3 textAligncenter" id="quick-links">
+                <h4>--- ---</h4>
+                <ul>
+                  <li>
+                    <a class="c-white" href="#">One</a>
+                  </li>
+                  <li>
+                    <a class="c-white" href="#">Two</a>
+                  </li>
+                  <li>
+                    <a class="c-white" href="#">Three</a>
+                  </li>
+                  <li>
+                    <a class="c-white" href="#">Four</a>
+                  </li>
+                  <li>
+                    <a class="c-white" href="#">Five</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-md-3 col-sm-3 textAligncenter" id="quick-links">
+                <h4>--- ---</h4>
+                <ul>
+                  <li>
+                    <a class="c-white" href="#">One</a>
+                  </li>
+                  <li>
+                    <a class="c-white" href="#">Two</a>
+                  </li>
+                  <li>
+                    <a class="c-white" href="#">Three</a>
+                  </li>
+                  <li>
+                    <a class="c-white" href="#">Four</a>
+                  </li>
+                  <li>
+                    <a class="c-white" href="#">Five</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-md-3 col-sm-3 textAligncenter" id="quick-links">
+                <h4>--- ---</h4>
+                <ul>
+                  <li>
+                    <a class="c-white" href="#">One</a>
+                  </li>
+                  <li>
+                    <a class="c-white" href="#">Two</a>
+                  </li>
+                  <li>
+                    <a class="c-white" href="#">Three</a>
+                  </li>
+                  <li>
+                    <a class="c-white" href="#">Four</a>
+                  </li>
+                  <li>
+                    <a class="c-white" href="#">Five</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
 
+            <div class="row">
+            <div class="footerBottom">
+                <hr>
+                || &copy; 2023 - 2024 || Education Website ||&nbsp;&nbsp; &nbsp;
+                <!-- <a class="c-white" href="#">_S@YEM_ &nbsp;&nbsp;</a> -->
+                <span class="follous c-white">&nbsp;FOLLOW US &nbsp;&nbsp; &nbsp;</span>
+                <a href="#">
+                  <span class="c-white">Facebook</span>
+                </a>&nbsp;&nbsp; &nbsp;
+                <a href="#">
+                  <span class="c-white">
+                    <span>YouTube</span>
+                  </span>
+                </a>&nbsp;&nbsp; &nbsp;
+                <a href="#">
+                  <span class="c-white">
+                    <span>LinkdIn</span>
+                  </span>
+                </a>&nbsp;&nbsp; &nbsp;
+                <a href="#">
+                  <span class="c-white">
+                    <span>Twetter</span>
+                  </span>
+                </a>
+              </div>
+              <hr>
+              </div>
+              <!-- Copyright -->
+              <div class="Footercopyright">
+                  <p> Design & Developed by  <a class="c-white" href="https://sayemahmedsayem.online/" target="_blank" class="develeped_name">
+                    <img  src="img/Sayem.jpg" alt="..."> SayemAhmedSayem </a>&nbsp; <br> Helpline   - 
+                    <i class="fa fa-phone heading_icon"></i>&nbsp; 
+                    <a class="c-white" href="tel:+88 01687 838 161 "> +88 01687 838 161 </a></p>
+              </div>
+              <!--/ End Copyright -->
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--Footer End -->
 
-  
+  <!--Js Files -->
   <script src="js/app.js"></script>
   <script src="js/bootstrap.js"></script>
-
+  <!--JS files End -->
 </body>
-
 </html>
