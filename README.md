@@ -1,2 +1,2 @@
 # School-Management-System
-coming soon
+coming soonn
