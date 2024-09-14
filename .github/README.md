@@ -13,7 +13,7 @@ community knowledge. It does not impose a specific development
 philosophy or framework, so you're free to architect your code in the
 way that you want.
 
-- [Homepage]([https://html5boilerplate.com/](https://sayemahmedsayem.github.io/Education-Website/))
+- [Homepage]([https://html5boilerplate.com/](https://sayemahmedsayem.github.io/Education-Website/)
 - [Source Code](https://github.com/h5bp/html5-boilerplate)
 
 ## About This Repository
