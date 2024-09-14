@@ -1,4 +1,4 @@
-# [Education-Website](#)
+# [Education-Website]()
 
 [![Build status](https://github.com/h5bp/html5-boilerplate/workflows/Build%20status/badge.svg)](https://github.com/h5bp/html5-boilerplate/actions?query=workflow%3A%22Build+status%22+branch%3Amain)
 [![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://github.com/h5bp/html5-boilerplate/blob/main/LICENSE.txt)
@@ -13,7 +13,7 @@ community knowledge. It does not impose a specific development
 philosophy or framework, so you're free to architect your code in the
 way that you want.
 
-- [Homepage](https://html5boilerplate.com/)
+- [Homepage]([https://html5boilerplate.com/](https://sayemahmedsayem.github.io/Education-Website/))
 - [Source Code](https://github.com/h5bp/html5-boilerplate)
 
 ## About This Repository
