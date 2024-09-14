@@ -5,16 +5,16 @@
 [![NPM Downloads](https://img.shields.io/npm/dt/html5-boilerplate.svg)](https://www.npmjs.com/package/html5-boilerplate)
 [![github-stars-image](https://img.shields.io/github/stars/h5bp/html5-boilerplate.svg?label=github%20stars)](https://github.com/h5bp/html5-boilerplate)
 
-HTML5 Boilerplate is a professional front-end template for building
-fast, robust, and adaptable web apps or sites.
+Education-Website is a professional front-end template for School
+fast, robust, and adaptable websites.
 
-This project is the product of over 10 years of iterative development and
+This project is the product of over 2 years of iterative development and
 community knowledge. It does not impose a specific development
 philosophy or framework, so you're free to architect your code in the
 way that you want.
 
 - [Homepage](https://sayemahmedsayem.github.io/Education-Website/)
-- [Source Code](https://github.com/h5bp/html5-boilerplate)
+- [Source Code](https://github.com/SayemAhmedSayem/Education-Website)
 
 ## About This Repository
 
